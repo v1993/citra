@@ -6,7 +6,7 @@ extraction:
       packages:
       - "libsdl2-dev"
       - "qtmultimedia5-dev"
-      - "clang-format"
+      - "clang-format-6.0"
       - "libtbb-dev"
       - "libjack-jackd2-dev"
       - "doxygen"
