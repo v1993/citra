@@ -74,8 +74,6 @@ static bool LZSS_Decompress(const u8* compressed, u32 compressed_size, u8* decom
         for (unsigned i = 0; i < 8; i++) {
             if (index <= stop_index)
                 break;
-            if (out <= 0)
-                break;
 
             if (control & 0x80) {
                 // Check if compression is out of bounds
